@@ -4,6 +4,9 @@ body{
     min-height: 100vh;
     padding: 0;
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .Button1{
@@ -96,8 +99,6 @@ body{
 .Main{
     align-items: center;
     text-align: center;
-    margin-top: 8rem;
-    margin-left: 17rem;
     justify-content: space-between;
 }
 
