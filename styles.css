@@ -1,0 +1,148 @@
+body{
+    background: linear-gradient(to bottom right, #fb7e7e, #530c4f, #d51fc0);
+    min-width: 100vw ;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.Button1{
+    position: absolute;
+    left: 45%;
+    top: 30%;
+    width: 10%;
+    height: 5%;
+    border: #333;
+    border-radius: 15px;
+    font-weight: 600;
+    box-shadow:  0 0 25px #010101;
+    z-index: 3;
+}
+
+.Button1:hover {
+    box-shadow:  0 0 0;
+    cursor: pointer;
+    position: absolute;
+    left: 45%;
+    top: 31%;
+}
+
+.Button2{
+    position: absolute;
+    left: 45%;
+    top: 55%;
+    width: 10%;
+    height: 5%;
+    border: #333;
+    border-radius: 15px;
+    font-weight: 600;
+    box-shadow:  0 0 25px #010101;
+    z-index: 3;
+}
+
+.Button2:hover {
+    box-shadow:  0 0 0;
+    cursor: pointer;
+    position: absolute;
+    left: 45%;
+    top: 56%;
+}
+
+.Button3{
+    position: absolute;
+    left: 45%;
+    top: 65%;
+    width: 10%;
+    height: 5%;
+    border: #333;
+    border-radius: 15px;
+    font-weight: 600;
+    box-shadow:  0 0 25px #010101;
+    z-index: 3;
+}
+
+.Button3:hover {
+    box-shadow:  0 0 0;
+    cursor: pointer;
+    position: absolute;
+    left: 45%;
+    top: 66%;
+}
+
+.CurrScore1, .CurrScore2{
+    font-family: cursive;
+    font-size: xx-large;
+    font-weight: 200;
+}
+
+.FinalScore1, .FinalScore2{
+    font-family: cursive;
+    font-size: xx-large;
+    font-weight: 1000;
+}
+
+.Hidden{
+    visibility: hidden;
+}
+
+.LowerText2, .LowerText1{
+    box-shadow:  0 0 25px #010101;
+    border-radius: 40%;
+    z-index: 3;
+    background-color: #530c4f;
+    color: red;
+}
+
+.Main{
+    align-items: center;
+    text-align: center;
+    margin-top: 8rem;
+    margin-left: 17rem;
+    justify-content: space-between;
+}
+
+.NormalText{
+    font-family: cursive;
+    font-size: medium;
+    font-weight: 200;
+    font-style: italic;
+    color: red;
+}
+
+.NewGame{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.Outer{
+    display: flex;
+    flex-direction: row;
+    size: 100%;
+    box-sizing: content-box;
+}
+
+.Photo{
+    height: 5rem;
+    width: 5rem;
+    border: #010101;
+    border-width: 0.5rem;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+}
+
+.Player1{
+    max-block-size: 1000%;
+    margin-right: 5rem;
+}
+
+.Player2{
+    max-block-size: 1000%;
+    margin-left: 5rem;
+}
+
+.TopText{
+    font-family: cursive;
+    font-size: xx-large;
+    font-weight: 1000;
+}
